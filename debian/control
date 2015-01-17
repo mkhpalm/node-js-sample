@@ -1,7 +1,7 @@
 Source: node-js-sample
 Section: utils
 Priority: optional
-Maintainer: Mike Palmer <mike@mikepalmernet>
+Maintainer: Mike Palmer <mkhpalm@gmail.com>
 Build-Depends: debhelper (>= 7.3.13), npm
 Standards-Version: 3.8.0
 
