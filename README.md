@@ -1,18 +1,34 @@
-# node-js-sample debian package
+# node-js-sample (debian package)
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
 Demonstration of how to package a node.js app that runs as a service. 
 This approach sould not interfere with NPM or Bower and the standard
-way developers work on these things. It also aims to be minimalistic
+ways developers like to work on these things. It also aims to be minimalistic
 in nature and only depend on v8 and node for deployment onto raw,
-virtualized, namespace (containers) images.
+virtualized, namespaces (containers).
 
 Simply:
 ```
 debuild
 ```
 Now you can deploy the binary wherever you have debian.
+
+```
+$ sudo dpkg -i ../node-js-sample_0.1-1_amd64.deb
+
+$ curl -I localhost:5000
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+ETag: W/"c-1c291ca3"
+Date: Sat, 17 Jan 2015 20:12:53 GMT
+Connection: keep-alive
+
+$ curl localhost:5000
+Hello World!
+```
 
 ## Running Locally
 
