@@ -1,3 +1,14 @@
+node-js-sample (1.1-1) stable; urgency=low
+
+  [ Jenkins ]
+  * Build #1. Started by user Mike Palmer.
+
+  [ Mike Palmer ]
+  * Update README.md
+  * Update README.md
+
+ -- Jenkins <devops@traxtech.com>  Sat, 17 Jan 2015 20:40:58 +0000
+
 node-js-sample (0.1-1) stable; urgency=medium
 
   * Example node.js package
