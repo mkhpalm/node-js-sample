@@ -1,0 +1,12 @@
+Source: node-js-sample
+Section: utils
+Priority: optional
+Maintainer: Mike Palmer <mike@mikepalmernet>
+Build-Depends: debhelper (>= 7.3.13), npm
+Standards-Version: 3.8.0
+
+Package: node-js-sample
+Architecture: any
+Depends: nodejs
+Description: Example node.js application
+ This is an example node.js application for deployment

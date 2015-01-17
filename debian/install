@@ -1,0 +1,4 @@
+*.js* usr/share/node-js-sample
+public usr/share/node-js-sample
+node_modules usr/share/node-js-sample
+README.md usr/share/doc/node-js-sample
