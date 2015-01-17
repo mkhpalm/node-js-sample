@@ -12,6 +12,7 @@ Simply:
 ```
 debuild
 ```
+Now you can deploy the binary wherever you have debian.
 
 ## Running Locally
 
