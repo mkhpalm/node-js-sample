@@ -1,6 +1,17 @@
-# node-js-sample
+# node-js-sample debian package
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
+
+Demonstration of how to package a node.js app that runs as a service. 
+This approach sould not interfere with NPM or Bower and the standard
+way developers work on these things. It also aims to be minimalistic
+in nature and only depend on v8 and node for deployment onto raw,
+virtualized, namespace (containers) images.
+
+Simply:
+```
+debuild
+```
 
 ## Running Locally
 
