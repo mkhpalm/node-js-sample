@@ -8,6 +8,11 @@ way developers work on these things. It also aims to be minimalistic
 in nature and only depend on v8 and node for deployment onto raw,
 virtualized, namespace (containers) images.
 
+Simply:
+```
+debuild
+```
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
