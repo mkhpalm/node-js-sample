@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.3.13), npm
 Standards-Version: 3.9.6
 
 Package: node-js-sample
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, nodejs
 Description: Example node.js application
  This is an example node.js application for deployment
