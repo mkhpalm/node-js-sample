@@ -15,7 +15,7 @@ debuild
 Now you can deploy the binary wherever you have debian.
 
 ```
-$ sudo dpkg -i ../node-js-sample_0.1-1_amd64.deb
+$ sudo dpkg -i ../node-js-sample*_all.deb
 
 $ curl -I localhost:5000
 HTTP/1.1 200 OK
