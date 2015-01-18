@@ -3,10 +3,10 @@ Section: utils
 Priority: optional
 Maintainer: Mike Palmer <mike@mikepalmer.net>
 Build-Depends: debhelper (>= 7.3.13), npm
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 
 Package: node-js-sample
 Architecture: any
-Depends: nodejs
+Depends: ${misc:Depends}, nodejs
 Description: Example node.js application
  This is an example node.js application for deployment
