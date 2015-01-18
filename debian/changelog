@@ -1,3 +1,13 @@
+node-js-sample (0.4) stable; urgency=low
+
+  [ Jenkins ]
+  * Build #4. Started by user Mike Palmer.
+
+  [ Mike Palmer ]
+  * Architecture should be all not any
+
+ -- Jenkins <devops@traxtech.com>  Sun, 18 Jan 2015 02:13:14 +0000
+
 node-js-sample (0.3) stable; urgency=low
 
   * Build #3. Started by user Mike Palmer.
