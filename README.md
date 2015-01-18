@@ -2,11 +2,13 @@
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-Demonstration of how to package a node.js app that runs as a service. 
-This approach sould not interfere with NPM or Bower and the standard
-ways developers like to work on these things. It also aims to be minimalistic
-in nature and only depend on v8 and node for deployment onto raw,
-virtualized, namespaces (containers).
+This fork of a basic node app from heroku demonstrates of how to package node apps 
+and have them run as a service. This approach sould not interfere with npm and the 
+standard ways developers like to work on these things. 
+
+It also aims to be minimalistic in nature and only depend on v8 and node for deployment 
+into raw, virtuale, or namespaces (containers). It really doesn't matter since its a 
+package.
 
 Simply:
 ```
