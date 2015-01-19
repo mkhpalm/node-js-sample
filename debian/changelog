@@ -1,3 +1,15 @@
+node-js-sample (0.5) stable; urgency=low
+
+  [ Jenkins ]
+  * Build #5. Started by user Mike Palmer.
+
+  [ Mike Palmer ]
+  * Update README.md
+  * Update README.md
+  * Cleaning up SysV script
+
+ -- Jenkins <devops@traxtech.com>  Mon, 19 Jan 2015 03:25:23 +0000
+
 node-js-sample (0.4) stable; urgency=low
 
   [ Jenkins ]
