@@ -12,7 +12,7 @@
 # Author: Mike Palmer <mike@mikepalmer.net>
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
-DESC="Sample node.js service"
+DESC="Node.js Application"
 NAME=node-js-sample
 DAEMON=/usr/bin/nodejs
 APPLICATION=/usr/share/node-js-sample
